@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html><head>
+		<meta charset="utf-8">
+		<title>xavier-shopmall</title>
+		<style>
+			.body {
+				background-color: antiquewhite;
+			}
+			
+			.menu {
+				display: flex;
+				flex-wrap: wrap;
+			}
+			
+			.menu li {
+				list-style: none;
+				padding: 0;
+				margin: 0;
+				height: 40px;
+				text-align: center;
+				line-height: 42px;
+				flex-basis: 100%;
+				border-radius: 20px;
+			}
+			
+			.menu li:nth-child(1) {
+				background-color: aliceblue;
+			}
+			
+			.menu li:nth-child(2) {
+				background-color: aliceblue;
+			}
+			
+			.menu li:nth-child(3) {
+				background-color: aliceblue;
+			}
+			
+			.menu li:nth-child(4) {
+				background-color: aliceblue;
+			}
+			
+			.menu li:nth-child(5) {
+				background-color: aliceblue;
+			}
+			
+			.menu li:nth-child(6) {
+				background-color: aliceblue;
+			}
+			
+			.menu li a {
+				text-decoration: none;
+				color: black;
+				font-size: ;
+				font-weight: 900;
+			}
+			
+			@media (min-width:480px) {
+				.menu li {
+					flex-basis: 50%;
+					font-size: small;
+				}
+			}
+			@media (min-width:760px) {
+				.menu li {
+					
+					font-size: medium;
+				}
+			}
+			@media (min-width:768px) {
+				.menu {
+					flex-wrap: nowrap;
+				}
+			}
+			
+			.flex-father {
+				display: flex;
+				flex-wrap: wrap;
+				justify-content: space-around;
+				/*width: 995px;*/
+				height: auto;
+				margin-left: 160px;
+				margin-right: 160px;
+				background-color: lightgrey;
+				/*margin: 0 auto;*/
+			}
+			.flex-father a:hover{
+				border: 1.5px solid red;
+			}
+			.flex-son { 
+				width: 236px;
+				height: 302px;
+				margin: 0;
+				padding: 0;
+			}
+			
+			@media (min-width:900px) {
+				.flex-father {
+					flex-wrap: wrap;
+				}
+			}
+			@media only screen and (max-width:1080px) {
+				.flex-father .flex-son {
+					flex-basis: 100%;
+				}
+			}
+			@media only screen and (min-width:800px) {
+				.flex-father .flex-son {
+					flex-basis: 75%;
+				}
+			}
+			
+			@media only screen and (min-width:480px) {
+			 .flex-father	.flex-son {
+					flex-basis: 50%;
+				}
+			}
+			
+			@media only screen and (max-width:480px) {
+				 .flex-father .flex-son {
+					flex-basis: 25%;
+				}
+			}
+			
+			.flexson-one-price {
+				width: 235px;
+				height: 301px;
+				margin-left: 13px;
+				text-align: center;
+				float: left;
+				display: block;
+				border-bottom: 15px solid #f5f5f5;
+				position: relative;
+				background-color: #fff;
+				text-decoration: none;
+				cursor: pointer;
+			}
+			.flex-sontop {
+				width: 68px;
+				height: 20px;
+				color: #fff;
+				line-height: 20px;
+				font-size: 14px;
+				margin: 0 auto;
+				background-color: #00B262;
+			}
+			
+			.flex-son-img {
+				height: 185px;
+				width: 185px;
+				text-align: center;
+				transition: right .3s;
+				margin-left: -58px;
+				margin-right: auto;
+				
+			}
+			
+			.flex-son-title {
+				width: 135px;
+				height: 40px;
+				font-size: 14px;
+				color: #333;
+				line-height: 20px;
+				overflow: hidden;
+				margin: 8px auto;
+				margin-left: -30px;
+			}
+			
+			.flex-price {
+				font-size: 18px;
+				color: #FF0036;
+				line-height: 18px;
+				margin: 10px auto;
+				margin-left: -5px;
+			}
+		</style>
+	</head>
+
+	<body class="body">
+		<div class="top-con j_top" style="position:relative;display:block flex;height:80px" data-spm="2015001">
+			<div style="background:#6449d0;width:50%;position:absolute;left:0;height:100%;"></div>
+			<div style="background:#6449d0;width:50%;position:absolute;right:0;height:100%;"></div>
+			<img width="990" height="80" style="position:relative;top:0;margin:0 auto;z-index:10;" src="//img.alicdn.com/tfs/TB1dh7OnbvpK1RjSZFqXXcXUVXa-990-80.png">
+
+			<a style="display: block;width:100%;position:absolute;left:0;top:0;height:100%;z-index:100;" aria-label="" href="//1111.tmall.com/?wh_weex=true&amp;wh_biz=tm&amp;acm=lb-zebra-148799-741251.1003.4.4556081&amp;wx_main_hc=true&amp;scm=1003.4.lb-zebra-148799-741251.OTHER_1_4556081">
+				<img width="100%" height="100%" alt="" src="//g.alicdn.com/s.gif">
+			</a>
+
+		</div>
+
+		<div id="header" data-spm="a2226n0">
+			<div class="headerLayout">
+				<div class="headerCon">
+					<h1 id="mallLogo">
+                    <span class="mlogo">
+                    
+                     <a title="去正版网站耍耍" style="text-decoration: none; color: deepskyblue;" href="//www.tmall.com/"><s></s>--&gt;一只假天猫&lt;--</a>
+                    
+                    </span>
+                    
+                 </h1>
+					<div class="header-extra">
+
+						<div class="header-banner">
+
+						</div>
+
+						
+								</fieldset>
+							</form>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+		<ul class="menu">
+			
+		</ul>
+		<div class="flex-father">
+			<a class="flexson-one-price " href="https://pvp.qq.com/">
+				<div class="flex-son" style="background-color: white;">
+					<div class="flex-sontop">
+						<img class="flex-son-img" src="img/鲁班.jpg">
+						<div class="flex-son-title">鲁班七号          星空梦想</div>
+						<div class="flex-price">￥积分夺宝获取</div>
+					</div>
+				</div>
+			</a>
+			<a class="flexson-one-price " href="https://pvp.qq.com/">
+				<div class="flex-son" style="background-color: white;">
+					<div class="flex-sontop">
+						<img class="flex-son-img" src="img/鲁班2.jpg">
+						<div class="flex-son-title">鲁班七号           电玩小子</div>
+						<div class="flex-price">￥288</div>
+					</div>
+				</div>
+			</a>
+			<a class="flexson-one-price " href="https://pvp.qq.com/">
+				<div class="flex-son" style="background-color: white;">
+					<div class="flex-sontop">
+						<img class="flex-son-img" src="img/猴子.jpg">
+						<div class="flex-son-title">孙悟空          全息碎影</div>
+						<div class="flex-price">￥积分夺宝获取</div>
+					</div>
+				</div>
+			</a>
+			<a class="flexson-one-price " href="https://pvp.qq.com/">
+				<div class="flex-son" style="background-color: white;">
+					<div class="flex-sontop">
+						<img class="flex-son-img" src="img/李白.jpg">
+						<div class="flex-son-title">李白           千年之狐</div>
+						<div class="flex-price">￥78</div>
+					</div>
+				</div>
+			</a>
+			<a class="flexson-one-price " href="https://pvp.qq.com/">
+				<div class="flex-son" style="background-color: white;">
+					<div class="flex-sontop">
+						<img class="flex-son-img" src="img/守约.jpg">
+						<div class="flex-son-title">百里守约        魅影特工</div>
+						<div class="flex-price">￥88</div>
+					</div>
+				</div>
+			</a>
+			<a class="flexson-one-price " href="https://pvp.qq.com/">
+				<div class="flex-son" style="background-color: white;">
+					<div class="flex-sontop">
+						<img class="flex-son-img" src="img/兰陵王.jpg">
+						<div class="flex-son-title">兰陵王          驯魔猎人</div>
+						<div class="flex-price">￥战令获取</div>
+					</div>
+				</div>
+			</a>
+			<a class="flexson-one-price " href="https://pvp.qq.com/">
+				<div class="flex-son" style="background-color: white;">
+					<div class="flex-sontop">
+						<img class="flex-son-img" src="img/孙尚香.jpg">
+						<div class="flex-son-title">孙尚香          杀手不太冷</div>
+						<div class="flex-price">￥积分夺宝获取</div>
+					</div>
+				</div>
+			</a>
+			<a class="flexson-one-price " href="https://baike.baidu.com/item/马化腾/124988?fr=aladdin
+">
+				<div class="flex-son" style="background-color: white;">
+					<div class="flex-sontop">
+						<img class="flex-son-img" src="img/老马.jpg">
+						<div class="flex-son-title">马化腾</div>
+						<div class="flex-price">￥来来，充八万</div>
+					</div>
+				</div>
+			</a>
+		</div>
+	
+
+</body></html>
